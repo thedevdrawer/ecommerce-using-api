@@ -1,8 +1,11 @@
 # Build An eCommerce Website Using An API
 
 Part 1: [https://youtu.be/V9zL1kMq5TI](https://youtu.be/V9zL1kMq5TI)
+
 Part 2: [https://youtu.be/DuxLZTS1A00](https://youtu.be/DuxLZTS1A00)
+
 Part 3: [https://youtu.be/rFto-xdqfbc](https://youtu.be/rFto-xdqfbc)
+
 Part 4: [https://youtu.be/08imQEj4NRM](https://youtu.be/08imQEj4NRM)
 
 ## Part 1
