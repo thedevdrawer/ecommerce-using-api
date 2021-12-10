@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample Shopping Cart | The Dev Drawer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <div class="container-fluid">
+        <div class="hero">
+            <div class="row align-items-center">
+                <div class="col-lg-7">
+                <h1 class="display-4 fw-bold">Welcome to Dev Drawer's Sample Store.</h1>
+                <p class="col-lg-10 fs-4">Learn how to pull external products from an API int your eCommerce website using only JS. Every product contained in this website is pulled form an API.</p>
+                </div>
+                <div class="col-md-10 mx-auto col-lg-5">
+                <form class="p-4 p-md-5 border rounded-3 bg-light">
+                    <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" autocomplete="off">
+                    <label for="floatingInput">Email address</label>
+                    </div>
+                    <div class="form-floating mb-3">
+                    <input type="password" class="form-control" id="floatingPassword" placeholder="Password" autocomplete="off">
+                    <label for="floatingPassword">Password</label>
+                    </div>
+                    <div class="checkbox mb-3">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                    </div>
+                    <button class="w-100 btn btn-lg btn-primary" type="submit">Sign up</button>
+                    <hr class="my-4">
+                    <small class="text-muted">By clicking Sign up, you agree to the terms of use.</small>
+                </form>
+                </div>
+            </div>
+        </div>
+        <h2>Newest Products</h2>
+        <div class="row products new"></div>
+    </div>
+    <br>
+    <img src="https://via.placeholder.com/1280x200.png?text=Placeholder%20Image" class="img-fluid">
+    <div id="footer-placeholder"></div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+<script src="js/init.js"></script>
+</html>

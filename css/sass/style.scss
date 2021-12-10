@@ -1,0 +1,94 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css");
+
+body {
+	color: #333;
+	font-size: 16px;
+}
+
+.text-end a {
+	float: right;
+}
+
+a {
+	text-decoration: none !important;
+	:hover,
+	:active,
+	:visited {
+		text-decoration: none;
+	}
+}
+
+.breadcrumb .sep {
+	padding: 0 5px;
+}
+
+label {
+	margin-bottom: 1rem;
+}
+
+.hero {
+	background-color: rgb(231, 243, 255);
+	padding: 2rem;
+	margin-bottom: 2rem;
+}
+
+.product {
+	border: 1px solid #c0c0c0;
+	height: 300px;
+	margin-bottom: 1rem;
+	text-align: center;
+	position: relative;
+	.image {
+		overflow: hidden;
+		height: 100%;
+		width: 100%;
+		margin-bottom: 1rem;
+		padding: 1rem;
+		img {
+			max-height: 80%;
+			max-width: 80%;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+	.info {
+		background-color: #1c7ad1cc;
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+		left: 0;
+		padding: 1rem;
+		min-height: 100%;
+		opacity: 0;
+		transition: all 0.25s ease;
+		color: #fff !important;
+
+		.title {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+		}
+	}
+	:hover > .info {
+		opacity: 1;
+	}
+}
+
+footer {
+	margin-top: 2rem;
+}
+
+.cartDisplay {
+	div {
+		width: 75%;
+		h6 {
+			text-align: left;
+		}
+	}
+	img {
+		margin-right: 1rem;
+	}
+}
